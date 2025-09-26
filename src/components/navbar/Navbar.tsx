@@ -12,6 +12,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const NavBar = async () => {
 	const session = await getSession();
+	console.log('session', session);
 	const navLinks: TNavLink[] = [
 		{
 			href: "/",

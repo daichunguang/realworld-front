@@ -14,6 +14,7 @@ export const getSession = async () => {
     if (!session.isLoggedIn) {
         session.isLoggedIn = defaultSession.isLoggedIn;
     }
+    console.log('SESSION', session)
     return session;
 }
 

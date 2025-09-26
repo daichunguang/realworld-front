@@ -21,7 +21,7 @@ export const TagList: React.FC<TTagListProps> = ({
 				className
 			)}
 		>
-			{tagList.map((ele, i) => (
+			{tagList?.map((ele, i) => (
 				<Tag
 					key={i}
 					ele={ele}
